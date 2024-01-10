@@ -1,7 +1,11 @@
 "use client";
 import Image from "next/image";
 
-//Hooks - Fica mais fácil de identificar hooks se pensar que todos começam com a palavra use
+//Hoooks - React : São funções que nos permitem usar o estado e outros recursos do React
+//sem escrever uma classe
+
+//Hooks - Dicar : Fica mais fácil de identificar hooks se pensar
+//que todos começam com a palavra use
 import React, { useState, useEffect } from "react";
 
 export default function Home() {
